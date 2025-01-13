@@ -130,25 +130,25 @@ _Note: each row for each account_
 2. Run the bot using the following command:
 
    ```bash
-   python bot.py
+   python meomundep.py
    ```
 
    or
 
    ```bash
-   python3 bot.py
+   python3 meomundep.py
    ```
 
    or
 
    ```bash
-   py bot.py
+   py meomundep.py
    ```
 
    or
 
    ```bash
-   py3 bot.py
+   py3 meomundep.py
    ```
 
 ---
