@@ -1,6 +1,6 @@
 # 🚀 Bot Setup Instructions
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile and this script is not ".exe"](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
 
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
@@ -65,7 +65,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   "howManyAccountsRunInOneTime": 100,
   "doTasks": true,
   "playGames": true,
-  "referralCode": ""
+  "referralCode": "6713068747"
 }
 ```
 
@@ -130,6 +130,13 @@ _Note: each row for each account_
 
 2. Run the bot using the following command:
 
+
+If this is .exe files:
+
+```bash
+./meomundep.exe
+```
+
 If this is .py files:
 
 ```bash
@@ -154,17 +161,12 @@ or
 py3 meomundep.py
 ```
 
-If this is .exe files:
-
-```bash
-./meomundep.exe
-```
 
 ---
 
 ## Contact and Support
 
-- **Help me with your referral** [Referral Link]()
+- **Help me with your referral** [Referral Link](https://t.me/QuantumAITonbot?startapp=6713068747)
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
