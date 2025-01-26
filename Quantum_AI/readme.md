@@ -1,5 +1,7 @@
 # 🚀 Bot Setup Instructions
 
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
 ---
@@ -25,7 +27,7 @@ Before running the bot, make sure you have the following installed:
 - **Python** (Version: `3.11.9`)
 - **pip** (Version: `24.3.1`)
 
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/2627).
+Download Python and pip here: [Download Link](https://t.me/KeoAirDropFreeNe/257/2627).
 
 ---
 
@@ -34,12 +36,13 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 1. **Download and Extract the Bot Files:**
 
    - Extract the bot package into a folder on your computer.
+     -> Double click on `setup.bat` for windows or `setup.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
 
 2. **Install Dependencies:**
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   pip install aiohttp requests cloudscraper pycryptodome fake-useragent aiohttp-proxy colorama
+   pip install aiohttp requests cloudscraper pycryptodome fake-useragent aiohttp-proxy colorama bs4
    ```
 
 3. **Prepare Configuration Files:**
@@ -56,9 +59,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 ```json
 {
   "timeZone": "en-US",
-  "rotateProxy": false,
   "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
@@ -70,9 +71,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 - **Fields Explained:**
   - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
@@ -82,7 +81,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ### 2. `datas.txt` - 🗂️ User Data
 
-Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
+Fill the `datas.txt` file with these datas from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
 
 ```txt
 query_id.../user...
@@ -93,6 +92,8 @@ query_id.../user...
 _Note: Each row for each account_
 
 ### 3. `wallets.txt` - 💼 Wallet Addresses
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 Add your wallet addresses in the following format:
 
@@ -129,33 +130,41 @@ _Note: each row for each account_
 
 2. Run the bot using the following command:
 
-   ```bash
-   python meomundep.py
-   ```
+If this is .py files:
 
-   or
+```bash
+python meomundep.py
+```
 
-   ```bash
-   python3 meomundep.py
-   ```
+or
 
-   or
+```bash
+python3 meomundep.py
+```
 
-   ```bash
-   py meomundep.py
-   ```
+or
 
-   or
+```bash
+py meomundep.py
+```
 
-   ```bash
-   py3 meomundep.py
-   ```
+or
+
+```bash
+py3 meomundep.py
+```
+
+If this is .exe files:
+
+```bash
+./meomundep.exe
+```
 
 ---
 
 ## Contact and Support
 
-- **Help me with your referral** [Referral Link](https://t.me/QuantumAITonbot?startapp=6713068747)
+- **Help me with your referral** [Referral Link]()
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
